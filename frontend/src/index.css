@@ -1,0 +1,90 @@
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 0.6rem;
+  padding: 0.5rem 0;
+}
+
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* Navbar */
+
+#Navbar{
+  border-radius: 15px;
+  margin: 5px;
+}
+
+/* carousel */
+
+.carousel{
+  border-radius: 15px;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-item{
+ padding: 25px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  height: 60px;
+  margin: 0 auto 0 auto;
+  width: 50%;
+  padding: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+
+.carouselImage{
+  display: block;
+  height: 30% vh;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+/* card */
+
+.product-card{
+  background-color: yellowgreen;
+}
