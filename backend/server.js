@@ -49,7 +49,6 @@ res.sendFile(path.resolve(path.resolve(__dirname, 'frontend', 'build', 'index.ht
     })
 }
 
-app.use(express.static("build"))
 
 app.use(notFound)
 app.use(errorHandler)
