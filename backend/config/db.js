@@ -5,7 +5,7 @@ import mongoose from 'mongoose'
 
 const connectDB = async () => {
     try {
-           await mongoose.connect('mongodb+srv://admin-fransco:admin-fransco@cluster0.vkbie.mongodb.net/Ecommerce', {
+           await mongoose.connect(`${process.env.MONGO_URI}`, {
             useUnifiedTopology: true,
             useNewUrlParser: true
         })
