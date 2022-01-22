@@ -1,11 +1,14 @@
 import path from "path"
 import express from "express"
 import multer from "multer"
+import fs from "fs"
 const router = express.Router()
 
 const storage = multer.diskStorage({
     destination(req, file, cb) {
-        cb(null, 'uploads/')
+        fs.mkdir('./uploads/',(err)=> {
+      cb(null, './uploads/');
+   })
     },
     filename(req, file, cb){
         cb(
