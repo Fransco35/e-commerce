@@ -5,11 +5,12 @@ import fs from "fs"
 const router = express.Router()
 
 const storage = multer.diskStorage({
-    destination(req, file, cb) {
-        fs.mkdir('./uploads/',(err)=> {
+    destination: (req, file, cb) => {
+    fs.mkdir('./uploads/',(err)=> {
       cb(null, './uploads/');
-   })
-    },
+   });
+  }
+ ,
     filename(req, file, cb){
         cb(
             null, `${file.fieldname}-${Date.now()}${path.extname(file.originalname)}`
@@ -41,3 +42,4 @@ router.post('/', upload.single('image'), (req, res) => {
 })
 
 export default router
+
