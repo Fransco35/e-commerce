@@ -5,10 +5,8 @@ import fs from "fs"
 const router = express.Router()
 
 const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-    fs.mkdir('./uploads/',(err)=> {
-      cb(null, './uploads/');
-   });
+     destination(req, file, cb) {
+    cb(null, '.../frontend/public/uploads/')
   }
  ,
     filename(req, file, cb){
