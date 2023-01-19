@@ -1,3 +1,7 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 main {
   min-height: 80vh;
@@ -85,6 +89,14 @@ h2 {
 
 /* card */
 
-.product-card{
-  background-color: yellowgreen;
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+  transition: 0.3s;
 }
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+
