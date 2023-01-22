@@ -16,26 +16,18 @@
 
 ### Installing Dependencies
 ```
-`
 npm install
-`
-`
 cd frontend
-`
-`
- npm install 
-`
+npm install 
 ```
 ### To Run
-`
+```
 npm run dev (frontend & backend)
-`
-`
 npm run server (backend only)
-`
+```
 
 ### Build and Deploy
-`
+```
 cd frontend
 npm run build
-`
+```
