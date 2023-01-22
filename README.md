@@ -15,6 +15,7 @@
 ## Setup 
 
 ### Installing Dependencies
+```
 `
 npm install
 `
@@ -24,6 +25,7 @@ cd frontend
 `
  npm install 
 `
+```
 ### To Run
 `
 npm run dev (frontend & backend)
