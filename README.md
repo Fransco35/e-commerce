@@ -16,9 +16,9 @@
 
 ### Installing Dependencies
 `
-npm install
-cd frontend
-npm install 
+* npm install
+* cd frontend
+* npm install 
 `
 ### To Run
 `
