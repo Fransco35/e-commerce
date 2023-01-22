@@ -1,4 +1,4 @@
-# ecommerce
+# Ecommerce
 
 ## What this application can do 
 * Display of products
